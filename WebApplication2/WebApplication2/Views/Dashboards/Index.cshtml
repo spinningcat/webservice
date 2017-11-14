@@ -1,0 +1,113 @@
+﻿@model IEnumerable<WebApplication2.Models.Dashboard>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.LATITUDE)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.LONGITUDE)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PROBLEMTYPE)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PROBLEMTYPEID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PROBLEMDATE)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PROBLEMNOTE)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.USERNAME)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.USEREMAIL)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.USERPHONENUMBER)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.USERDEVICETYPE)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.USERDEVICEVERSION)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DEVICEOSVERSION)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.REPORTDATE)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.NETWORKTYPE)
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.LATITUDE)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LONGITUDE)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PROBLEMTYPE)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PROBLEMTYPEID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PROBLEMDATE)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PROBLEMNOTE)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.USERNAME)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.USEREMAIL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.USERPHONENUMBER)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.USERDEVICETYPE)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.USERDEVICEVERSION)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DEVICEOSVERSION)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.REPORTDATE)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NETWORKTYPE)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.DID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.DID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.DID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

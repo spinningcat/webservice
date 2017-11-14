@@ -1,0 +1,11 @@
+C:\Users\SONY\source\repos\NWSolution\NWSolution\bin\Debug\netcoreapp2.0\NWSolution.deps.json
+C:\Users\SONY\source\repos\NWSolution\NWSolution\bin\Debug\netcoreapp2.0\NWSolution.runtimeconfig.json
+C:\Users\SONY\source\repos\NWSolution\NWSolution\bin\Debug\netcoreapp2.0\NWSolution.runtimeconfig.dev.json
+C:\Users\SONY\source\repos\NWSolution\NWSolution\bin\Debug\netcoreapp2.0\NWSolution.dll
+C:\Users\SONY\source\repos\NWSolution\NWSolution\bin\Debug\netcoreapp2.0\NWSolution.pdb
+C:\Users\SONY\source\repos\NWSolution\NWSolution\obj\Debug\netcoreapp2.0\NWSolution.csprojResolveAssemblyReference.cache
+C:\Users\SONY\source\repos\NWSolution\NWSolution\obj\Debug\netcoreapp2.0\NWSolution.csproj.CoreCompileInputs.cache
+C:\Users\SONY\source\repos\NWSolution\NWSolution\obj\Debug\netcoreapp2.0\NWSolution.AssemblyInfoInputs.cache
+C:\Users\SONY\source\repos\NWSolution\NWSolution\obj\Debug\netcoreapp2.0\NWSolution.AssemblyInfo.cs
+C:\Users\SONY\source\repos\NWSolution\NWSolution\obj\Debug\netcoreapp2.0\NWSolution.dll
+C:\Users\SONY\source\repos\NWSolution\NWSolution\obj\Debug\netcoreapp2.0\NWSolution.pdb

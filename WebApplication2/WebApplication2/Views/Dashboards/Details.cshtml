@@ -1,0 +1,102 @@
+﻿@model WebApplication2.Models.Dashboard
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Dashboard</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.LATITUDE)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.LATITUDE)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.LONGITUDE)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.LONGITUDE)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.PROBLEMTYPE)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PROBLEMTYPE)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.PROBLEMTYPEID)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PROBLEMTYPEID)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.PROBLEMDATE)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PROBLEMDATE)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.PROBLEMNOTE)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PROBLEMNOTE)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.USERNAME)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.USERNAME)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.USEREMAIL)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.USEREMAIL)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.USERPHONENUMBER)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.USERPHONENUMBER)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.USERDEVICETYPE)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.USERDEVICETYPE)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.USERDEVICEVERSION)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.USERDEVICEVERSION)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DEVICEOSVERSION)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DEVICEOSVERSION)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.REPORTDATE)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.REPORTDATE)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.NETWORKTYPE)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NETWORKTYPE)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.DID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

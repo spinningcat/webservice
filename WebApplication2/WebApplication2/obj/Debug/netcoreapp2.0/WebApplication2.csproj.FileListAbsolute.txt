@@ -1,0 +1,11 @@
+c:\users\sony\source\repos\WebApplication2\WebApplication2\bin\Debug\netcoreapp2.0\WebApplication2.deps.json
+c:\users\sony\source\repos\WebApplication2\WebApplication2\bin\Debug\netcoreapp2.0\WebApplication2.runtimeconfig.json
+c:\users\sony\source\repos\WebApplication2\WebApplication2\bin\Debug\netcoreapp2.0\WebApplication2.runtimeconfig.dev.json
+c:\users\sony\source\repos\WebApplication2\WebApplication2\bin\Debug\netcoreapp2.0\WebApplication2.dll
+c:\users\sony\source\repos\WebApplication2\WebApplication2\bin\Debug\netcoreapp2.0\WebApplication2.pdb
+c:\users\sony\source\repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.0\WebApplication2.csproj.CoreCompileInputs.cache
+c:\users\sony\source\repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.0\WebApplication2.AssemblyInfoInputs.cache
+c:\users\sony\source\repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.0\WebApplication2.AssemblyInfo.cs
+c:\users\sony\source\repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.0\WebApplication2.dll
+c:\users\sony\source\repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.0\WebApplication2.pdb
+c:\users\sony\source\repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.0\WebApplication2.csprojResolveAssemblyReference.cache
